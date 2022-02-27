@@ -1,6 +1,5 @@
 
-# Break stuff
-
+# Cookie Project 
 
 ## Table of Contents
 ### * [Description](#description)
@@ -13,24 +12,26 @@
 
 
 ### Description
-This project is about stuff and things 
+Box full of cookies 
 
 ### Installation 
-NO INSTRUCTIONS ALLOWED
+bake!
 
 ### Usage 
-NONE
+Eat!
 
 ### License 
-
+license: undefined
+Apache
+undefined
 
 ### Contributing
-NONE SIR
+Dont take!
 
 ### Tests
-NADA
+No test
 
 ### Questions        
-github.com/kpbader
+https://github.com/kpbader
 kbader91@gmail.com
 

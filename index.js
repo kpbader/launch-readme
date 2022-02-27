@@ -42,7 +42,7 @@ const questions = [
         type:'list',
         name: 'licenseSelect',
         message: 'Please select any license necessary.',
-        choices: ["Apache", "MIT", "BSD", "Mozilla", "Eclipse"]
+        choices: ["Apache", "MIT", "BSD", "Mozilla", "Eclipse", "none"]
     },
     {
         type: 'input',

@@ -2,17 +2,26 @@
 // If there is no license, return an empty string
 // google shields.io
 function renderLicenseBadge(license) {
-  if (license === "none"){
-    return ''
+  if (license === "Apache") {
+    return '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)'
+  } else if (license === "MIT") {
+    return '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)'
+  } else if (license === "BSD") {
+    return '[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)'
+  } else if (license === "Mozilla") {
+    return '[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)'
+  } else if (license === "Eclipse") {
+    return '[![License](https://img.shields.io/badge/License-EPL_1.0-red.svg)](https://opensource.org/licenses/EPL-1.0)'
+  } else {
+    return '';
   }
-  //this needs to render the license badge image
-  return ``
+
 }
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-  if (license === "none"){
+  if (license === "none") {
     return ''
   } else if (license === "Apache") {
     return 'https://opensource.org/licenses/Apache-2.0';
@@ -30,16 +39,17 @@ function renderLicenseLink(license) {
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
-  if (license === "none"){
+  if (license === "none") {
     return ''
+  } else {
+    return `license: ${license}`;
   }
 }
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `
-# ${data.title}
-${renderLicenseBadge(data.license)}
+# ${data.title} ${renderLicenseBadge(data.license)}
 
 ## Table of Contents
 ### * [Description](#description)
@@ -61,6 +71,7 @@ ${data.installInstructions}
 ${data.usageInfo}
 
 ### License 
+${renderLicenseSection(data.license)}
 ${data.licenseSelect}
 ${renderLicenseLink(data.license)}
 
@@ -71,7 +82,7 @@ ${data.contributionGuide}
 ${data.testInstructions}
 
 ### Questions        
-github.com/${data.githubUsername}
+https://github.com/${data.githubUsername}
 ${data.email}
 
 `;

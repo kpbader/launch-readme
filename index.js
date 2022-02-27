@@ -39,6 +39,12 @@ const questions = [
         message: 'Please describe any test instructions.'
     },
     {
+        type:'list',
+        name: 'licenseSelect',
+        message: 'Please select any license(s) necessary.',
+        choices: ["Apache 2.0", "MIT", ""]
+    },
+    {
         type: 'input',
         name: 'githubUsername',
         message: 'Please enter your Github username.'

@@ -14,8 +14,18 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
   if (license === "none"){
     return ''
-  }
-}
+  } else if (license === "Apache") {
+    return 'https://opensource.org/licenses/Apache-2.0';
+  } else if (license === "MIT") {
+    return 'http://www.opensource.org/licenses/MIT';
+  } else if (license === "BSD") {
+    return 'http://www.opensource.org/licenses/BSD';
+  } else if (license === "Mozilla") {
+    return 'http://www.opensource.org/licenses/Mozilla';
+  } else if (license === "Eclipse") {
+    return 'http://www.opensource.org/licenses/Eclipse';
+  };
+};
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
@@ -51,7 +61,8 @@ ${data.installInstructions}
 ${data.usageInfo}
 
 ### License 
-
+${data.licenseSelect}
+${renderLicenseLink(data.license)}
 
 ### Contributing
 ${data.contributionGuide}
@@ -60,7 +71,7 @@ ${data.contributionGuide}
 ${data.testInstructions}
 
 ### Questions        
-[github.com/${data.githubUsername}]
+github.com/${data.githubUsername}
 ${data.email}
 
 `;

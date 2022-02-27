@@ -41,8 +41,8 @@ const questions = [
     {
         type:'list',
         name: 'licenseSelect',
-        message: 'Please select any license(s) necessary.',
-        choices: ["Apache 2.0", "MIT", ""]
+        message: 'Please select any license necessary.',
+        choices: ["Apache", "MIT", "BSD", "Mozilla", "Eclipse"]
     },
     {
         type: 'input',

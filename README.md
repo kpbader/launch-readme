@@ -18,7 +18,7 @@ This app generates a README.md for any given repository. A series of questions/p
 npm install 
 
 ### Usage 
-Walkthrough Video: file:///Users/kpbader/Downloads/Untitled_%20Feb%2027,%202022%205_26%20PM.webm
+Walkthrough Video: 
 
 ### License 
 License: MIT

@@ -19,7 +19,7 @@ npm install
 
 ### Usage 
 Walkthrough Video: 
-https://user-images.githubusercontent.com/94590338/161352349-e94ea3fc-b4bf-4b16-b457-6d59bc021948.mp4
+https://user-images.githubusercontent.com/94590338/161353598-cd57e374-64a6-4c04-a685-64ad5e6eeac9.mp4
 
 ### License 
 License: MIT

@@ -1,24 +1,24 @@
 
-# Cookie Box  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# README Launcher [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Table of Contents
 ### * [Description](#description)
-### * [Installation](#installationInstructions)
-### * [Usage](#usageInfo)
-### * [Contributions](#contributionGuide)
-### * [Test](#testInstructions)
-### * [License](#licenseSelect)
-### * [Questions](#githubUsername)
+### * [Installation](#installation)
+### * [Usage](#usage)
+### * [Contributions](#contributing)
+### * [Test](#tests)
+### * [License](#license)
+### * [Questions](#questions)
 
 
 ### Description
-A box full of cookies 
+This app generates a README.md for any given repository. A series of questions/prompts are presented to the user and their answers determine the outcome of the README generated. 
 
 ### Installation 
-Bake, place, eat
+npm install 
 
 ### Usage 
-To devour yum cookies 
+Walkthrough Video: file:///Users/kpbader/Downloads/Untitled_%20Feb%2027,%202022%205_26%20PM.webm
 
 ### License 
 License: MIT
@@ -26,10 +26,10 @@ MIT
 http://www.opensource.org/licenses/MIT
 
 ### Contributing
-Eat with a wholesome heart 
+Fork and make pull request to contribute 
 
 ### Tests
-No test instructions; eat cookies 
+None
 
 ### Questions        
 https://github.com/kpbader
